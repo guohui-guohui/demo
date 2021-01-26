@@ -1,0 +1,12 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /demo
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
